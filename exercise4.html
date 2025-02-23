@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            height: 10vh;
+            width: 10vw;
+            background-color: red;
+        }
+        :root{
+            --color: red;
+            --bgcolor: black;
+        }
+        p{
+            color: var(--color);
+            background-color: var(--bgcolor);
+        }
+        /*@media only screen and (max-width: 1020px){
+            body{
+                background-color: purple;
+            }
+        }*/
+        @media only screen and (max-width: 1020px){
+            body{
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cont"></div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, perferendis!</p>
+</body>
+</html>
